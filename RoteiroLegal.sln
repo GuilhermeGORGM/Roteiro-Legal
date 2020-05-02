@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoteiroLegal", "RoteiroLegal\RoteiroLegal.csproj", "{EF814074-42E3-4D0A-B735-E8B0353A112B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{BBD69C94-27A4-4ED4-9354-4D6417AC0D53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{92A9ED11-0A51-4BB4-9DE6-4BCC70A6B66F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roteiro.Domain", "Roteiro.Domain\Roteiro.Domain.csproj", "{EFCA7A47-AA25-4C70-86ED-C9C82201885F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Data", "4-Data", "{9B757147-D42F-4929-B3FB-4C59B8632C4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roteiro.Data.EF", "Roteiro.Data.EF\Roteiro.Data.EF.csproj", "{2A1308E8-EA2F-4B5E-9E35-63CF71D371B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{EF2EAE63-4AAB-478C-AB5D-95E6702B6176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roteiro.Application", "Roteiro.Application\Roteiro.Application.csproj", "{BF5A78BE-53CB-4C7F-AD08-992259F6CBA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF814074-42E3-4D0A-B735-E8B0353A112B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF814074-42E3-4D0A-B735-E8B0353A112B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF814074-42E3-4D0A-B735-E8B0353A112B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF814074-42E3-4D0A-B735-E8B0353A112B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCA7A47-AA25-4C70-86ED-C9C82201885F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCA7A47-AA25-4C70-86ED-C9C82201885F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCA7A47-AA25-4C70-86ED-C9C82201885F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCA7A47-AA25-4C70-86ED-C9C82201885F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1308E8-EA2F-4B5E-9E35-63CF71D371B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1308E8-EA2F-4B5E-9E35-63CF71D371B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1308E8-EA2F-4B5E-9E35-63CF71D371B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1308E8-EA2F-4B5E-9E35-63CF71D371B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5A78BE-53CB-4C7F-AD08-992259F6CBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5A78BE-53CB-4C7F-AD08-992259F6CBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5A78BE-53CB-4C7F-AD08-992259F6CBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5A78BE-53CB-4C7F-AD08-992259F6CBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF814074-42E3-4D0A-B735-E8B0353A112B} = {BBD69C94-27A4-4ED4-9354-4D6417AC0D53}
+		{EFCA7A47-AA25-4C70-86ED-C9C82201885F} = {92A9ED11-0A51-4BB4-9DE6-4BCC70A6B66F}
+		{2A1308E8-EA2F-4B5E-9E35-63CF71D371B0} = {9B757147-D42F-4929-B3FB-4C59B8632C4F}
+		{BF5A78BE-53CB-4C7F-AD08-992259F6CBA6} = {EF2EAE63-4AAB-478C-AB5D-95E6702B6176}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBC0D08B-870A-42E0-B13C-56C9655CFC9B}
+	EndGlobalSection
+EndGlobal
